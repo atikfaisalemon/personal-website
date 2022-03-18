@@ -20,7 +20,8 @@ body{
 }
 .button{
     color: white;
-    margin-top: 60px;
+    display: inline-block;
+    margin-top: 30px;
     text-decoration: none;
     font-size: 20px;
     background-color:rgb(182, 28, 74);
@@ -29,12 +30,16 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 10px;
-    
 }
 .name{
     font-size: 50px;
     color: rgb(182, 28, 74);
     font-weight: 1400;
+}
+#thin{
+    font-size: 45px;
+     font-weight: 10;
+     
 }
 .bio{
     background-image: url(img/biography-bg.png);
@@ -50,10 +55,13 @@ body{
 }
 .work-heading{
     text-align: center;
+    margin-bottom:5%;
+    font-size: 25px;
+    font-weight: 800;
 }
 .work-img{
     background-image: url(img/latest-work-bg.png);
-    height: 900px;
+    height: 500px;
     margin-top: 20px;
     background-repeat: no-repeat;
     text-align: center;
@@ -61,5 +69,34 @@ body{
 .work-img img{
     width: 25%;
     padding: 30px;
+
+}
+.clinet{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    
+
+}
+.last-border{
+    color: white;
+    border: 5px rgb(182, 28, 74) solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(182, 28, 74) ;
+    margin-top: 50px;
+}
+.thin-last{
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+#fotter-copy{
+    font-size: 10px;
+    color: gray;
+    margin-top: 100px;
 
 }
